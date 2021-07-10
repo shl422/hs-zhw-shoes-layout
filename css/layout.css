@@ -22,6 +22,55 @@
   clear: both;
 }
 
-/* Positioning Classes */
+.grid-container {  
+   display: grid; 
+     grid-template-columns: 70% auto; 
+    }
 
+    .grid-container2 {  
+      display: grid; 
+        grid-template-columns: auto auto auto; 
+      margin-top: 25px;
+
+      }
+
+      .grid-container3 {
+        display: grid;
+        grid-template-columns: auto;
+      margin-right: 20px;
+      }
+
+      .grid-container4 {
+        display: grid;
+        grid-template-columns: auto;
+      
+      }
+
+      .grid-container5 {
+        display: grid;
+        grid-template-columns: auto;
+      margin-left: 20px;
+      }
+
+
+      .grid-container6 {
+        display: grid;
+        grid-template-columns: auto;
+      margin-right: 20px;
+      }
+
+
+      .grid-container7 {
+        display: grid;
+        grid-template-columns: auto;
+      
+      }
+.grid-container8 {
+  display: grid;
+grid-template-columns: auto auto auto;
+}
+
+.wrapper {
+  text-align: auto;
+}
 
